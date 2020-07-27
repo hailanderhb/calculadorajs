@@ -1,0 +1,27 @@
+
+body{
+    background-color: #2db698;
+
+}
+
+#titulo{
+    text-align: center;
+    background-color: rgb(134, 133, 132);
+    width: 100%;
+    color: white;
+    
+}
+
+#sisteminha{
+    text-align: center;
+    background-color: darkgray;
+    width: 100%;
+    padding-top: 10px;
+    line-height: 15px;
+}
+
+.visor{
+    width: 100%;
+    margin-bottom: 8px;
+    
+}
