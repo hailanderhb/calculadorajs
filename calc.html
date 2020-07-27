@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculadora simples</title>
+        <link rel="stylesheet" type="text/css" href="calc.css">
+        <script type="text/javascript" src="calc.js"></script>
+    </head>
+    <body>
+        <div id ="titulo">
+            <h1>Calculadora</h1>
+        </div>
+        <div id = "sisteminha">
+            <form name="calc">
+                <div class="visor">
+                    <input type="text" size="30"style="height:20px" name="visor"/><br>
+                </div>
+                <div class="primeirafileira">
+                    <input type="button" value="7" onclick="botao( value );"/>
+                    <input type="button" value="8" onclick="botao( value );"/>
+                    <input type="button" value="9" onclick="botao( value );"/>
+                    <input type="button" value="/" onclick="botao( value );"/>
+                    <input type="button" value="c" onclick="reset( );"/>
+                </div><br>
+                <div class="segundafileira">
+                    <input type="button" value="4" onclick="botao( value );"/>
+                    <input type="button" value="5" onclick="botao( value );"/>
+                    <input type="button" value="6" onclick="botao( value );"/>
+                    <input type="button" value="*" onclick="botao( value );"/>
+                    <input type="button" value="=" onclick="calcule(  );"/>
+                </div><br>
+                <div class="terceirafileira">
+                    <input type="button" value="1" onclick="botao( value );"/>
+                    <input type="button" value="2" onclick="botao( value );"/>
+                    <input type="button" value="3" onclick="botao( value );"/>
+                    <input type="button" value="-" onclick="botao( value );"/>
+                    <input type="button" value="**" onclick="botao( value );"/>
+                </div><br>
+                <div class="terceirafileira">
+                    <input type="button" value="00" onclick="botao( value );"/>
+                    <input type="button" value="0" onclick="botao( value );"/>
+                    <input type="button" value="." onclick="botao( value );"/>
+                    <input type="button" value="  ";/>
+                    <input type="button" value="+" onclick="botao( value );"/>
+                    <br><br>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
