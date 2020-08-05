@@ -1,27 +1,29 @@
 
 body{
-    background-color: #2db698;
+    margin: 0;
+    padding: 0;
+    background-color: #dce6e3;
 
 }
 
 #titulo{
     text-align: center;
-    background-color: rgb(134, 133, 132);
-    width: 100%;
     color: white;
-    
 }
+
 
 #sisteminha{
     text-align: center;
-    background-color: darkgray;
-    width: 100%;
     padding-top: 10px;
     line-height: 15px;
 }
 
 .visor{
     width: 100%;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     
+}
+
+.carousel {
+    background-color: rgb(163, 161, 161);
 }
